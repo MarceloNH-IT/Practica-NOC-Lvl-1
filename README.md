@@ -312,7 +312,7 @@ Este laboratorio refleja la capacidad de resolver problemas de infraestructura I
 * **💼 LinkedIn**: [Horacio Marcelo Nuñez](https://linkedin.com) *(Podés sumar tu enlace aquí más adelante)*
 * **📬 Correo Electrónico**: [marcelonunez.tecno@gmail.com](mailto:marcelonunez.tecno@gmail.com)
 * **🚀 GitHub**: [@MarceloNunez-NOC](https://github.com/MarceloNunez-NOC)
-
+![Configuración del Adaptador de Red Puente](Marcelo1.jpeg)
 ---
 *Desarrollado con dedicación y compromiso por la excelencia técnica.*
 
