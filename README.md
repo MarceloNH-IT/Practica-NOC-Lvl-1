@@ -37,29 +37,53 @@ Validar:
 ip addr show
 ping -c 4 192.168.50.1
 
+---
+
 🔧 Fase 2: Mantenimiento y Actualización
-Mantén el sistema actualizado y seguro.
-sudo apt update
-sudo apt upgrade -y
+Mantén el sistema actualizado y seguro ejecutando los siguientes comandos en la terminal de forma secuencial:
+
+1. Sincronizar repositorios e instalar actualizaciones estándar:
+sudo apt update && sudo apt upgrade -y
+
+2. Actualizar dependencias críticas del sistema:
+   
 sudo apt dist-upgrade -y
+
+4. Depurar paquetes huérfanos y limpiar caché:
+
 sudo apt autoremove -y
 
 🌐 Fase 3: Despliegue de Servidor Web
-Instala y configura Nginx.
+Instala y configura el servidor web Nginx asegurando su persistencia en el sistema:
+
+1. Instalar el paquete oficial de Nginx:
+   
 sudo apt install nginx -y
+
+3. Habilitar el inicio automático junto con el sistema operativo:
+   
 sudo systemctl enable nginx
+
+5. Iniciar el servicio de inmediato:
+   
 sudo systemctl start nginx
-systemctl status nginx
+
+7. Verificar el estado operativo del daemon:
+   
+sudo systemctl status nginx --no-pager
 
 🧪 Fase 4: Validación Local
-Comprueba que el servidor web responde correctamente.
+Comprueba que el servidor web responde de forma correcta localmente inspeccionando los códigos de retorno HTTP:
 
-curl http://localhost
+1. Validación de cabeceras de red (Espera un código 200 OK):
+curl -I http://localhost
+
+2. Validación de descarga del código fuente en modo silencioso:
 wget -qO- http://127.0.0.1
 
-Resultado esperado: HTML básico o código 200 OK
+Resultado esperado: Retorno del código de estado HTTP 200 OK o la visualización del HTML básico de bienvenida de Nginx.
 
-📂 Estructura del Proyecto
+###  📂 Estructura del Proyecto
 noc-practica/
 
 README.md
