@@ -31,7 +31,6 @@ network:
       gateway4: 192.168.50.1
       nameservers:
         addresses: [8.8.8.8, 1.1.1.1]
-
 Aplicar cambios:
 sudo netplan apply
 Validar:
