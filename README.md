@@ -207,22 +207,22 @@ Para facilitar el estudio y el seguimiento rápido en la consola, esta tabla res
 🚀 Fase 1: Configuración de Netplan  
 Comando aplicado:  
 Fase 1: Configuración de Netplan aplicada con éxito.  
-![Fase 1](capturas/F1.jpeg)
+![Fase 1](F1.jpeg)
 
 🔧 Fase 2: Mantenimiento del Sistema  
 Comando aplicado:  
 Fase 2: Mantenimiento base del sistema ejecutado.  
-![Fase 2](capturas/F2.jpeg)
+![Fase 2](F2.jpeg)
 
 🌐 Fase 3: Despliegue de Nginx  
 Comando aplicado:  
 Fase 3: Despliegue y automatización del arranque de Nginx completados.  
-![Fase 3](capturas/F3.jpeg)
+![Fase 3](F3.jpeg)
 
 🧪 Fase 4: Validación Local HTTP  
 Comandos aplicados:  
 Fase 4: Diagnóstico y verificación local HTTP exitosos usando herramientas nativas (`curl` y `wget`).  
-![Fase 4](capturas/F4.jpeg)
+![Fase 4](F4.jpeg)
 
 **Estado final:** 🟩 Laboratorio completado y documentado para portafolio.
 
