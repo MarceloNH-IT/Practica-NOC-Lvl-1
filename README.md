@@ -244,7 +244,7 @@ Este script (`setup.sh`) automatiza las 4 fases del laboratorio:
 ![Script 0](Scrip0.jpeg)
 
 ### 📡 Fase 1: Configuración de Red
-![Script 1](Scrip1.jpeg)
+![Script 1](Guion1.jpeg)
 
 ### 🔧 Fase 2: Mantenimiento del Sistema
 ![Script 2](Script2.jpeg)
