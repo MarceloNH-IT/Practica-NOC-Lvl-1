@@ -267,6 +267,39 @@ Este script (`setup.sh`) automatiza las 4 fases del laboratorio:
 🟩 Script ejecutado con éxito y validado para portafolio.
 
 
+---
+
+## 🖥️ Arquitectura e Infraestructura de Virtualización (Capas Base)
+
+Para que el entorno perimetral Linux funcione de manera eficiente y con aceleración nativa por hardware, se realizó un despliegue estructurado desde la capa física (Firmware/BIOS) hasta la capa de software (Hipervisor Tipo 2 y SO Invitado).
+
+### 🛠️ Capa 1: Firmware / Motherboard (Hardware Root)
+Antes de inicializar cualquier máquina virtual, es mandatorio activar la virtualización nativa en el procesador a nivel de BIOS/UEFI. En este caso, sobre un procesador AMD Ryzen 7 5700G, se ingresó al panel de la placa madre ASUS ROG (UEFI BIOS Utility) para activar la extensión de hardware.
+
+* **Parámetro modificado**: Se configuró el **Modo SVM (Secure Virtual Machine)** en **Habilitada**.
+
+#### 📸 Evidencia en BIOS/UEFI:
+![Configuración de Virtualización en Motherboard](m1.jpeg)
+
+---
+
+### 📦 Capa 2: Hipervisor (Oracle VM VirtualBox)
+Una vez dada la autorización por hardware, el hipervisor puede tomar el control de las extensiones del procesador para segmentar de forma segura la memoria y los núcleos.
+
+* **Aceleración**: Se configuró el sistema con Paginación anidada y **Paravirtualización KVM**.
+* **Asignación de Recursos**: 2048 MB de memoria base y 2 procesadores activos dedicados a la instancia.
+* **Red Perimetral**: Adaptador configurado en modo **Adaptador puente** (Bridged) vinculado directamente al controlador físico de red de la máquina anfitriona (*Intel(R) Ethernet Controller I225-V*).
+
+#### 📸 Evidencia en VirtualBox:
+![Configuración General de la Instancia](m2.jpeg)
+![Configuración del Adaptador de Red Puente](m3.jpeg)
+
+---
+
+### 🐧 Capa 3: Sistema Operativo Invitado (Ubuntu Server)
+Con la infraestructura de hardware y red aprovisionada por el hipervisor, se inicializó el sistema operativo de red **Ubuntu Server** de manera nativa y con soporte directo para las interfaces virtuales asignadas.
+![Configuración del Adaptador de Red Puente](m4.jpeg)
+Para auditar y verificar que el sistema operativo heredó correctamente las características de red configuradas en el puente de VirtualBox, se ejecutaron comandos nativos de diagnóstico físico de enlaces:
 
 
 
