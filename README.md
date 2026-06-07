@@ -38,50 +38,43 @@ ip addr show
 ping -c 4 192.168.50.1
 
 ---
+---
 
-🔧 Fase 2: Mantenimiento y Actualización
-Mantén el sistema actualizado y seguro ejecutando los siguientes comandos en la terminal de forma secuencial:
+## 🔧 Fase 2: Mantenimiento y Actualización
 
-1. Sincronizar repositorios e instalar actualizaciones estándar:
-sudo apt update && sudo apt upgrade -y
+Mantén el sistema actualizado y seguro ejecutando las siguientes directivas secuencialmente:
 
-2. Actualizar dependencias críticas del sistema:
-   
-sudo apt dist-upgrade -y
+* **Paso 1 (Sincronizar e instalar actualizaciones estándar):** `sudo apt update && sudo apt upgrade -y`
 
-4. Depurar paquetes huérfanos y limpiar caché:
+* **Paso 2 (Actualizar dependencias críticas y Kernel):** `sudo apt dist-upgrade -y`
 
-sudo apt autoremove -y
+* **Paso 3 (Depurar paquetes huérfanos del sistema):** `sudo apt autoremove -y`
 
-🌐 Fase 3: Despliegue de Servidor Web
-Instala y configura el servidor web Nginx asegurando su persistencia en el sistema:
+---
 
-1. Instalar el paquete oficial de Nginx:
-   
-sudo apt install nginx -y
+## 🌐 Fase 3: Despliegue de Servidor Web
 
-3. Habilitar el inicio automático junto con el sistema operativo:
-   
-sudo systemctl enable nginx
+Instala y aprovisiona el servidor web Nginx asegurando su persistencia en la infraestructura operativa:
 
-5. Iniciar el servicio de inmediato:
-   
-sudo systemctl start nginx
+* **Paso 1 (Instalar el paquete oficial):** `sudo apt install nginx -y`
 
-7. Verificar el estado operativo del daemon:
-   
-sudo systemctl status nginx --no-pager
+* **Paso 2 (Habilitar persistencia en el arranque):** `sudo systemctl enable nginx`
 
-🧪 Fase 4: Validación Local
-Comprueba que el servidor web responde de forma correcta localmente inspeccionando los códigos de retorno HTTP:
+* **Paso 3 (Levantar el servicio inmediatamente):** `sudo systemctl start nginx`
 
-1. Validación de cabeceras de red (Espera un código 200 OK):
-curl -I http://localhost
+* **Paso 4 (Auditar el estado operativo actual):** `sudo systemctl status nginx --no-pager`
 
-2. Validación de descarga del código fuente en modo silencioso:
-wget -qO- http://127.0.0.1
+---
 
-Resultado esperado: Retorno del código de estado HTTP 200 OK o la visualización del HTML básico de bienvenida de Nginx.
+## 🧪 Fase 4: Validación Local
+
+Comprueba la disponibilidad del servicio web inspeccionando de forma interna los códigos de retorno HTTP:
+
+* **Paso 1 (Validación de cabeceras de red):** `curl -I http://localhost`
+
+* **Paso 2 (Validación de descarga del index local):** `wget -qO- http://127.0.0.1`
+
+**Resultado esperado:** El sistema debe reflejar la cabecera operativa de Nginx o volcar las primeras líneas del archivo HTML estándar de bienvenida.
 
 ###  📂 Estructura del Proyecto
 noc-practica/
