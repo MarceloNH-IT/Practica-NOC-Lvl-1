@@ -241,7 +241,7 @@ Este script (`setup.sh`) automatiza las 4 fases del laboratorio:
 ## 📂 Evidencias del Script
 
 ### 🚀 Fase 0: Inicio del despliegue
-![Script 0](Script0.jpeg)
+![Script 0](Scrpt-0.jpeg)
 
 ### 📡 Fase 1: Configuración de Red
 ![Script 1](Script1.jpeg)
