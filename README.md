@@ -227,6 +227,47 @@ Fase 4: Diagnóstico y verificación local HTTP exitosos usando herramientas nat
 **Estado final:** 🟩 Laboratorio completado y documentado para portafolio.
 
 
+# 🖥️ Script de Automatización - Laboratorio NOC Lvl 1
+
+Este script (`setup.sh`) automatiza las 4 fases del laboratorio:
+
+1. Configuración de red persistente con Netplan.  
+2. Mantenimiento y actualización del sistema operativo.  
+3. Instalación y despliegue de Nginx.  
+4. Validación local del servicio web con `curl` y `wget`.
+
+---
+
+## 📂 Evidencias del Script
+
+### 🚀 Fase 0: Inicio del despliegue
+![Script 0](Script0.jpeg)
+
+### 📡 Fase 1: Configuración de Red
+![Script 1](Script1.jpeg)
+
+### 🔧 Fase 2: Mantenimiento del Sistema
+![Script 2](Script2.jpeg)
+
+### 🌐 Fase 3: Instalación de Nginx
+![Script 3](Script3.jpeg)
+
+### ⚙️ Fase 3b: Habilitación y arranque de Nginx
+![Script 4](Script4.jpeg)
+
+### 🧪 Fase 4: Validación con curl
+![Script 5](Script5.jpeg)
+
+### 🧪 Fase 4b: Validación con wget
+![Script 6](Script6.jpeg)
+
+---
+
+## ✅ Estado Final
+🟩 Script ejecutado con éxito y validado para portafolio.
+
+
+
 
 
 
