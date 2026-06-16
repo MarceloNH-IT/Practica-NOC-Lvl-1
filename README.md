@@ -81,12 +81,16 @@ noc-practica/
 
 README.md
 
-docs/
+    docs/
 
 fase1_red.md
+
 fase2_update.md
+
 fase3_nginx.md
+
 fase4_validacion.md
+
 
 capturas/
 
@@ -107,6 +111,8 @@ Servicio web activo y accesible.
 Validación local con herramientas nativas (ping, curl, wget).
 
 ✅ Checklist
+
+
 [ ] Red configurada y persistente
 
 [ ] Sistema actualizado
