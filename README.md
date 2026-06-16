@@ -316,7 +316,7 @@ Este laboratorio refleja la capacidad de resolver problemas de infraestructura I
 ¡Muchas gracias por revisar este repositorio! Si tenés alguna duda técnica o querés conectar profesionalmente, podés encontrarme en mis canales oficiales:
 
 * **💼 LinkedIn**: [Horacio Marcelo Nuñez](https://linkedin.com) *(Podés sumar tu enlace aquí más adelante)*
-* **📬 Correo Electrónico**: [marcelonunez.tecno@gmail.com](mailto:marcelonunez.tecno@gmail.com)
+* **📬 Correo Electrónico**: [marcelonunez.tecno@gmail.com](marcelonh86@gmail.com)
 * **🚀 GitHub**: [@MarceloNunez-NOC](https://github.com/MarceloNunez-NOC)
 
 ---
