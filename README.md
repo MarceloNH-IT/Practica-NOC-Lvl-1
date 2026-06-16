@@ -315,7 +315,7 @@ Agradezco el tiempo de quienes visitan mi portafolio en GitHub. Cada laboratorio
 
 Invito a reclutadores y colegas a seguir mis repositorios, donde iré compartiendo nuevos proyectos, certificados y logros. Estoy abierto a colaborar y aportar mi experiencia en entornos que valoren la constancia y la capacidad de resolver problemas.
 
-* **💼 LinkedIn**: [Horacio Marcelo Nuñez](https://linkedin.com) *(Podés sumar tu enlace aquí más adelante)*
+* **💼 LinkedIn**: [Horacio Marcelo Nuñez](https://www.linkedin.com/in/marcelo-nunez-it/?skipRedirect=true)
 * **📬 Correo Electrónico**: [marcelonh86@gmail.com](marcelonh86@gmail.com)
 * **🚀 GitHub**: [@MarceloNunez-NOC](https://github.com/MarceloNunez-NOC)
 
