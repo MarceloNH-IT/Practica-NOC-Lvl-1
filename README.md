@@ -308,12 +308,12 @@ Con la infraestructura de hardware y red aprovisionada por el hipervisor, se ini
 Para auditar y verificar que el sistema operativo heredó correctamente las características de red configuradas en el puente de VirtualBox, se ejecutaron comandos nativos de diagnóstico físico de enlaces:
 
 ---
-![Configuración del Adaptador de Red Puente](Marcelo1.jpg)
+![Configuración del Adaptador de Red Puente](FotoNOC.jpg)
 ## 🤝 Conclusión y Contacto
 
-Este laboratorio refleja la capacidad de resolver problemas de infraestructura IT desde la raíz de hardware hasta la capa de servicios, aplicando metodologías ágiles, documentación rigurosa y buenas prácticas de seguridad de la información.
+Agradezco el tiempo de quienes visitan mi portafolio en GitHub. Cada laboratorio refleja mi compromiso con el aprendizaje continuo y la práctica aplicada en IT, redes y administración de sistemas. Mi objetivo es demostrar que puedo diagnosticar, resolver y documentar incidentes de manera profesional, utilizando máquinas virtuales y configuraciones de red.
 
-¡Muchas gracias por revisar este repositorio! Si tenés alguna duda técnica o querés conectar profesionalmente, podés encontrarme en mis canales oficiales:
+Invito a reclutadores y colegas a seguir mis repositorios, donde iré compartiendo nuevos proyectos, certificados y logros. Estoy abierto a colaborar y aportar mi experiencia en entornos que valoren la constancia y la capacidad de resolver problemas.
 
 * **💼 LinkedIn**: [Horacio Marcelo Nuñez](https://linkedin.com) *(Podés sumar tu enlace aquí más adelante)*
 * **📬 Correo Electrónico**: [marcelonh86@gmail.com](marcelonh86@gmail.com)
